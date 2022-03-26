@@ -29,7 +29,7 @@ const getGoods = () => {
     }
 
     const getData = (text, category) => {
-        fetch('/db/db.json')
+        fetch('../db/db.json')
             .then((response) => {
                 return response.json();
             })
